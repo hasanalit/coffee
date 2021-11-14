@@ -601,6 +601,10 @@ body {
     cursor: pointer;
 }
 
+.about-hero-desc:hover {
+    opacity: 0.8;
+}
+
 /* ABOUT COMMITMENT */
 .commitment-container {
     width: 1150px;
@@ -619,9 +623,9 @@ body {
     flex-direction: column;
 }
 
-.commitment title {
+.commitment-title {
     margin: 0;
-    width: 357px;
+    margin-bottom: 32px;
     font-weight: 900;
     font-size: 40px;
     line-height: 48px;
@@ -635,7 +639,6 @@ body {
     font-size: 16px;
     line-height: 26px;
     cursor: pointer;
-
 }
 
 .commitment-desc:hover {
@@ -673,6 +676,7 @@ body {
     font-size: 40px;
     line-height: 48px;
     color: #FEFCF7;
+    cursor: pointer;
 }
 
 .quality-desc {
@@ -716,6 +720,7 @@ body {
     font-size: 24px;
     line-height: 32px;
     color: #83888F;
+    cursor: pointer;
 }
 
 .headquarter-list {
@@ -748,6 +753,11 @@ body {
     font-weight: 900;
     font-size: 32px;
     line-height: 36px;
+    cursor: pointer;
+}
+
+.headquarter-list-title:hover  {
+    opacity: 0.8;
 }
 
 .headquarter-include-item {
@@ -756,4 +766,5 @@ body {
     font-size: 16px;
     line-height: 26px;
     color: #333D4B;
+    cursor: pointer;
 }
