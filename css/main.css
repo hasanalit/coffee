@@ -556,3 +556,42 @@ body {
 .footer-right-item + .footer-right-item {
     margin-left: 20px;
 }
+
+
+
+
+/* ABOUT US */
+.about-hero-container {
+    width: 1320px;
+    margin: 0 auto;
+    padding: 0 20px 84px;
+}
+
+.about-hero {
+    display: flex;
+    flex-direction: column;
+    padding: 137px 85px;
+    background-image: url(../img/herocoffee.png);
+    background-size: cover;
+    border-radius: 5px;
+    height: 450px;
+}
+
+.about-hero-title {
+    margin: 0;
+    margin-bottom: 24px;
+    width: 188px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+}
+
+.about-hero-desc {
+    margin: 0;
+    width: 445px;
+    font-family: Barlow;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+}
