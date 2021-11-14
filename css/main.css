@@ -561,6 +561,9 @@ body {
 
 
 /* ABOUT US */
+
+
+/* HERO */
 .about-hero-container {
     width: 1320px;
     margin: 0 auto;
@@ -585,6 +588,7 @@ body {
     font-size: 40px;
     line-height: 48px;
     color: #FEFCF7;
+    cursor: pointer;
 }
 
 .about-hero-desc {
@@ -594,4 +598,46 @@ body {
     font-size: 16px;
     line-height: 26px;
     color: #FEFCF7;
+    cursor: pointer;
+}
+
+/* ABOUT COMMITMENT */
+.commitment-container {
+    width: 1150px;
+    margin: 0 auto;
+    padding: 84px 20px;
+}
+
+.site-commitment {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.commitment-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.commitment title {
+    margin: 0;
+    width: 357px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    cursor: pointer;
+}
+
+.commitment-desc {
+    margin: 0;
+    width: 540px;
+    font-family: Barlow;
+    font-size: 16px;
+    line-height: 26px;
+    cursor: pointer;
+
+}
+
+.commitment-desc:hover {
+    opacity: 0.8;
 }
