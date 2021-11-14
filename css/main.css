@@ -605,7 +605,7 @@ body {
 .commitment-container {
     width: 1150px;
     margin: 0 auto;
-    padding: 84px 20px;
+    padding: 168px 20px;
 }
 
 .site-commitment {
@@ -640,4 +640,59 @@ body {
 
 .commitment-desc:hover {
     opacity: 0.8;
+}
+
+/* QUALITY */
+.quality-container {
+    width: 1320px;
+    margin: 0 auto;
+    padding: 20px;
+    margin: 168px auto;
+}
+
+.site-quality {
+    display: flex;
+    align-items: center;
+    background-image: url(../img/aboutbitmap.png);
+    background-size: cover;
+    height: 474px;
+    border-radius: 5px;
+}
+
+.quality-left {
+    display: flex;
+    flex-direction: column;
+    padding: 88px 125px 176px 85px;
+}
+
+.quality-title {
+    margin: 0;
+    margin-bottom: 32px;
+    width: 517px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FEFCF7;
+}
+
+.quality-desc {
+    margin: 0;
+    width: 540px;
+    font-family: Barlow;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FEFCF7;
+    mix-blend-mode: normal;
+    cursor: pointer;
+}
+
+.quality-desc:hover {
+    opacity: 0.8;
+}
+
+.quality-img {
+    margin-bottom: 168px;
+    border-radius: 10px;
+    width: 445px;
+    height: 474px;
 }
