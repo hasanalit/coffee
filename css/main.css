@@ -696,3 +696,64 @@ body {
     width: 445px;
     height: 474px;
 }
+
+/* HEADQUARTERS  */
+.headquarter-container {
+    width: 1085px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.site-headquarter {
+    display: flex;
+    flex-direction: column;
+}
+
+.headquarter-title {
+    margin: 0;
+    margin-bottom: 72px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+
+.headquarter-list {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.headquarter-item + .headquarter-item{
+    margin-left: 95px;
+}
+
+.headquarter-include-list {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.headquarter-list-img {
+    margin-bottom: 45px;
+}
+
+.headquarter-list-title {
+    margin: 0;
+    margin-bottom: 24px;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+}
+
+.headquarter-include-item {
+    font-family: Barlow;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B;
+}
