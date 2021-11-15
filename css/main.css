@@ -768,3 +768,13 @@ body {
     color: #333D4B;
     cursor: pointer;
 }
+
+
+
+
+/* PLAN */
+.plan-hero-container {
+    width: 1320px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
