@@ -778,3 +778,112 @@ body {
     margin: 0 auto;
     padding: 0 20px;
 }
+
+.site-plan-hero {
+    width: 1280px;
+    height: 450px;
+    background-image: url(../img/coffeebitmap.png);
+    background-size: cover;
+    margin-bottom: 168px;
+    padding: 134px 84px;
+}
+
+.plan-hero-title {
+    margin: 0;
+    margin-bottom: 32px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FEFCF7;
+    cursor: pointer;
+}
+
+.plan-hero-desc {
+    margin: 0;
+    font-family: Barlow;
+    font-size: 16px;
+    line-height: 26px;
+    width: 445px;
+    color: #FEFCF7;
+    cursor: pointer;
+}
+
+.plan-hero-desc {
+    opacity: 0.8;
+}
+
+/* PLAN WORKS */
+.plan-container {
+    width: 1055px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.site-plan {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/Bitmap-back.png);
+    background-size: cover;
+    height: 653px;
+    width: 1280px;
+    border-radius: 5px;
+}
+
+.plan__hero {
+    margin: 100px 85px 67px;
+}
+
+.plan__herolist {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-top: -20px;
+    padding: 0;
+    list-style: none;
+}
+
+.plan_heroitem + .plan_heroitem {
+    margin-left: 349px;
+}
+
+.plan__workslist {
+    display: flex;
+    align-items: center;
+    margin: 0 85px;
+    padding: 0;
+    list-style: none;
+}
+
+.plan__worksitem + .plan__worksitem {
+    margin-left: 95px;
+}
+
+.plan__listtitle {
+    margin: 0;
+    margin-bottom: 38px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+}
+
+.plan__itemtitle {
+    margin: 0;
+    margin-bottom: 42px;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #fff;
+    width: 255px;
+}
+
+.plan_listdesc {
+    margin: 0;
+    font-family: Barlow;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    width: 285px;
+}
